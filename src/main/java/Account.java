@@ -1,8 +1,8 @@
 import java.util.Date;
 
 public abstract class Account {
-    private Date dataCreated;
-    private Double balance;
+    protected Date dataCreated;
+    protected Double balance;
 
     public Account(double intialDeposite){
         balance = intialDeposite;

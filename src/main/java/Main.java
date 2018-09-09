@@ -26,7 +26,7 @@ public class Main {
 
             case 3:
                 BusinessAccount bs = new BusinessAccount(225000);
-                
+
         }
 
     }

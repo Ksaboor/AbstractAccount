@@ -17,7 +17,7 @@ public abstract class Account {
         }
     }
 
-    public void deposite(Double amount){
+    public void deposit(Double amount){
         balance+= amount;
     }
 }

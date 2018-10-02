@@ -7,7 +7,8 @@ public class Main {
         //reading form the keyboard
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter 1 checking, 2 for savings, and 3 for Business:");
+        System.out.println("Enter 1 checking, 2 for savings, " +
+                "3 for Business, and 4 for our new feature *Money Coverter*");
         int choice = input.nextInt();
 
         switch (choice){

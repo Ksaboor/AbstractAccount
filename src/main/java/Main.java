@@ -12,14 +12,15 @@ public class Main {
 
         switch (choice){
             case 1:
-                CheckingAccount ch = new CheckingAccount(70000);
-
+                    Checking();
+                    break;
             case 2:
 
                     Savings();
+                    break;
             case 3:
-                BusinessAccount bs = new BusinessAccount(225000);
-
+                    Business();
+                    break;
         }
 
     }
@@ -45,7 +46,17 @@ public class Main {
             case 2:
                 account.withdraw(amount);
                 break;
+                default:
+                    System.out.println("Invalid Section!");
         }
         System.out.println(account.toString());
+    }
+    static void Checking(){
+        CheckingAccount ch = new CheckingAccount(70000);
+
+    }
+    static void Business(){
+        BusinessAccount bs = new BusinessAccount(225000);
+
     }
 }
